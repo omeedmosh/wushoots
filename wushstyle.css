@@ -30,7 +30,7 @@ h1,h2 {
 }
 
 a {
-    color: white;
+    color: black;
     text-decoration: none;
     white-space: pre;
 }
@@ -83,7 +83,7 @@ a:active {
     font-family: Arial, Helvetica, sans-serif;
     position: fixed;
     background-size: cover;
-    background-image: url('https://media3.giphy.com/media/KCdXOVBvvEqeWzFNf8/giphy.gif?cid=ecf05e47fotoa7rj5s4u8xrnclug3mbrapqgwlksjs4526rh&rid=giphy.gif&ct=g');
+    background-image: url('https://media2.giphy.com/media/jN0uFcNogUxHf3IwlC/giphy.gif?cid=790b7611d3fad51ddbebbd306cb1e80a039155f3f12c294e&rid=giphy.gif&ct=g');
 }
 
 .freeConfirmation{

@@ -45,7 +45,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     color: white;
     text-align: center;
   }
@@ -53,7 +53,7 @@ body {
   .centergif {
     overflow: hidden;
     position: fixed;
-    top:35%;
+    top:25%;
     display: block;
     width: 100%;
   }

@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin:0;
     background-color:black;
 }
@@ -29,16 +29,50 @@ body {
     font-size: 25px;
   }
 
-  .body {
-    margin-top: 60px;
-    margin-bottom: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
+  .text {
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    text-align: justify;
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     display: block;
-    padding: 16px;
+    padding: 0px;
+    overflow-wrap: break-word;
+  }
+
+  .text-under-header {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    text-align: justify;
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 0px;
+    overflow-wrap: break-word;
+  }
+
+  .header-text {
+    margin-top: 90px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 0px;
+    overflow-wrap: break-word;
+  }
+
+  .lonelytext{
+    margin-top: 10%;
+  }
+
+  .imagewidth{
+    width: 250px;
   }
   
   .center {
@@ -77,10 +111,34 @@ body {
 }
 
 .menutitles {
-    margin-top: 35%;
     text-align: center;
     color: white;
-    font-size: 30px;
+    overflow: hidden;
+    position: absolute;
+    bottom:45px;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
     display: block;
-    padding: 16px;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  .center {
+    max-width: 200px;
+  }
+
+  .text {
+    margin-top: 80px;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 20px;
+  }
+
+  .text-under-header{
+    margin-top: 30px;
+    margin-left: 7%;
+    margin-right: 7%;
+    font-size: 20px;
+  }
 }

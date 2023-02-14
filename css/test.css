@@ -228,6 +228,14 @@ a:hover {
   margin-top:0px;
 }
 
+.red-button {
+  color:red;
+}
+
+.red-button:hover {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .center {
     max-width: 200px;

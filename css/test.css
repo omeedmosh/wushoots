@@ -198,6 +198,7 @@ body {
 
 a:hover {
   color: red;
+  text-decoration-color: red;
 }
 
 .menutitles {
@@ -218,7 +219,7 @@ a:hover {
   margin-right: auto;
   text-align: center;
   margin-top: 45px;
-  max-width: 300px;
+  max-width: 550px;
   padding:0px;
 }
 
@@ -230,10 +231,13 @@ a:hover {
 
 .red-button {
   color:red;
+  text-decoration: underline;
+  text-decoration-color: red;
 }
 
 .red-button:hover {
   color: white;
+  text-decoration-color: white;
 }
 
 @media only screen and (max-width: 600px) {
